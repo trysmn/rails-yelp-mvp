@@ -1,0 +1,9 @@
+<div class="text-center">
+  <div style="margin: 20px"></div>
+  <% @restaurant.reviews.each do |r| %>
+    <div class="row">
+      <h2><%= r.content %></h2>
+    </div>
+  <% end %>
+</div>
+
